@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-杩欐槸README.MD鏂囦欢
-=======
-这里是README.md文件
->>>>>>> 88bee02 (淇敼)
+杩欓噷鏄疪EADME.md鏂囦欢
