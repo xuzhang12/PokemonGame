@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+/*这里是页面需要的通用css样式*/
+* {
+    margin: 0;
+    font-family:"Microsoft Yahei";
+    color: #666;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+li {
+    list-style: none;
+}
+body {
+    text-align: center;
+    background-image: url("../img/封面.jpg");
+    background-repeat: no-repeat;
+    background-position: center 200px;
+    background-attachment: fixed;
+    background-size: contain;
+}
+input[type="submit"] {
+    font-size: 20px;
+}
+
+div.main {
+    padding-top: 60px;
+}
+.errorMsg {
+    color: green;
+}
+.msg {
+    color:green;
+}
+label {
+    display: inline-block;
+    width: 100px;
+}
+body .main table{
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+body .main table td{
+    width: 40px;
+    text-align:center;
+    border-bottom: 1px #e3e3e3 solid;
+    padding: 10px;
+}
+body .main table tr td input {
+    width: 100px;
+}
+
