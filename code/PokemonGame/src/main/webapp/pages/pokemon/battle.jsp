@@ -1,5 +1,5 @@
 <%@ page import="java.util.List" %>
-<%@ page import="com.zhangxingyu.domain.Pokemon" %>
+<%@ page import="com.example.pokemongame.domain.Pokemon" %>
 <%--
   Created by IntelliJ IDEA.
   User: wuming

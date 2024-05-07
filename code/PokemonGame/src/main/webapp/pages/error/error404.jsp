@@ -12,8 +12,13 @@
 <head>
     <title>404错误页面</title>
 </head>
-<body style="text-align: center">
-<p>很抱歉，您访问的页面不存在，或已被删除！！！</p>
-<a href="/MC-Project/index.jsp">返回首页</a>
+<body>
+<div style="height: 600px;width: auto;
+    background-image: url(../../static/img/404错误页面.jpg);
+    background-size: cover;
+    ">
+</div>
+<br>
+<a style="display:block;text-align: center;text-decoration: none" href="/PokemonGame_war/index.jsp">返回首页</a>
 </body>
 </html>

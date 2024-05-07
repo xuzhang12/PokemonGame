@@ -6,6 +6,14 @@
     <title>用户登录成功界面</title>
     <%--静态包含base标签，css样式，jQuery文件--%>
     <%@include file="/pages/common/head.jsp" %>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var bgmusic = document.getElementById('bgmusic');
+            if (bgmusic.paused) {
+                bgmusic.play();
+            }
+        });
+    </script>
 </head>
 <body>
 <div class="main">

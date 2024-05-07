@@ -13,7 +13,7 @@
     <%@include file="/pages/common/head.jsp" %>
     <script>
         $(function () {
-            let ws = new WebSocket("ws://"+window.location.host+"/MC-Project/pages/user/announcement.jsp");
+            let ws = new WebSocket("ws://"+window.location.host+"/PokemonGame_war/pages/user/announcement.jsp");
             ws.onopen = function () {
                 console.log('console.log:WebSocket链接打开');
             }

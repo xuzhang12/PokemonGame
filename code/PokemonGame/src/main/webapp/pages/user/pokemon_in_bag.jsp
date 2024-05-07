@@ -36,11 +36,12 @@
         })
     </script>
 </head>
-<body>
+<body style="background: none">
+
 <span class="msg">${requestScope.msg}</span>
 <div class="main">
     <a href="pages/user/main.jsp" style="float:left;display:block;margin-left: 40px">返回</a>
-    <h3>注意：该顺序为别人对你发起挑战时，你的宠物的出战顺序</h3>
+    <h3>当别人对你发起挑战时，你的宠物将按以下顺序出战</h3>
     <br>
     <table>
         <tr>

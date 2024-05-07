@@ -1,8 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page import="com.zhangxingyu.domain.Pokemon" %>
+<%@ page import="com.example.pokemongame.domain.Pokemon" %>
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.Random" %>
-<%@ page import="com.zhangxingyu.domain.User" %>
+<%@ page import="com.example.pokemongame.domain.User" %>
 <%@ page import="java.util.ArrayList" %><%--
   Created by IntelliJ IDEA.
   User: wuming

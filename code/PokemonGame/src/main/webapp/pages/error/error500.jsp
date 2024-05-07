@@ -13,8 +13,13 @@
     <title>500错误页面</title>
 
 </head>
-<body style="text-align: center">
-<p>很抱歉，您访问的后台程序出现了错误，程序员小哥正在努力地为您抢修！！！</p>
-<a href="/MC-Project/index.jsp">返回首页</a>
+<body>
+<div style="height: 600px;width: auto;
+    background-image: url(../../static/img/500错误页面.jpg);
+    background-size: cover;
+    ">
+</div>
+<br>
+<a style="display:block;text-align: center;text-decoration: none" href="/PokemonGame_war/index.jsp">返回首页</a>
 </body>
 </html>
