@@ -29,7 +29,9 @@ public class UserServiceimpl implements UserService {
 
     @Override
     public boolean exitsUser(String username) {
-        return userDao.queryUserByUsername(username) != null;
+        if(userDao.queryUserByUsername(username) == null)
+            return false;
+        return true;
     }
 
     @Override
